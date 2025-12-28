@@ -1,15 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4;
 }
 
-header, footer {
+header {
   background-color: #333;
   color: white;
-  padding: 1em;
+  padding: 1.5em;
   text-align: center;
 }
 
@@ -17,11 +16,24 @@ nav a {
   color: white;
   margin: 0 1em;
   text-decoration: none;
+  font-weight: bold;
 }
 
 main {
   padding: 2em;
   background-color: white;
-  margin: 1em;
+  margin: 1.5em;
   border-radius: 8px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+h1, h2 {
+  color: #333;
 }
