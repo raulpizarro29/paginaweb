@@ -1,0 +1,11 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas temporales
+node_modules/
+dist/
+build/
+
+# Archivos de entorno
+.env
